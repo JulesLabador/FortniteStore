@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A274E412242ADD300A1FDB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A274E402242ADD300A1FDB7 /* AppDelegate.swift */; };
+		4A274E432242ADD300A1FDB7 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A274E422242ADD300A1FDB7 /* StoreViewController.swift */; };
+		4A274E482242ADD500A1FDB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A274E472242ADD500A1FDB7 /* Assets.xcassets */; };
+		4A274E4B2242ADD500A1FDB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A274E492242ADD500A1FDB7 /* LaunchScreen.storyboard */; };
+		4A274E562242ADD500A1FDB7 /* FortniteStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A274E552242ADD500A1FDB7 /* FortniteStoreTests.swift */; };
+		4A274E612242ADD500A1FDB7 /* FortniteStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A274E602242ADD500A1FDB7 /* FortniteStoreUITests.swift */; };
+		4AE011402242B0AE00A37FFC /* StoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0113F2242B0AE00A37FFC /* StoreItem.swift */; };
+		4AE011422242B20C00A37FFC /* StoreCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE011412242B20C00A37FFC /* StoreCollectionView.swift */; };
+		576369E817B163662392E004 /* Pods_FortniteStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A53E44EB632093F4392686 /* Pods_FortniteStore.framework */; };
+		DCB7C201BEE5CA159CB01B9E /* Pods_FortniteStoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1206C2507CF9F9523D47F9A /* Pods_FortniteStoreTests.framework */; };
+		DF71519070F9B49CC5742CAD /* Pods_FortniteStoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A3220D3309186D6092C728 /* Pods_FortniteStoreUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A274E522242ADD500A1FDB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A274E352242ADD300A1FDB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A274E3C2242ADD300A1FDB7;
+			remoteInfo = FortniteStore;
+		};
+		4A274E5D2242ADD500A1FDB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A274E352242ADD300A1FDB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A274E3C2242ADD300A1FDB7;
+			remoteInfo = FortniteStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21540D94064BE38B19DE7BA0 /* Pods-FortniteStoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortniteStoreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FortniteStoreUITests/Pods-FortniteStoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		21B567554107407D1662E212 /* Pods-FortniteStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortniteStoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FortniteStoreTests/Pods-FortniteStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		29A53E44EB632093F4392686 /* Pods_FortniteStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FortniteStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		447A2A4C9141B202AC80D3BE /* Pods-FortniteStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortniteStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-FortniteStore/Pods-FortniteStore.release.xcconfig"; sourceTree = "<group>"; };
+		4A274E3D2242ADD300A1FDB7 /* FortniteStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FortniteStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A274E402242ADD300A1FDB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A274E422242ADD300A1FDB7 /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		4A274E472242ADD500A1FDB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A274E4A2242ADD500A1FDB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A274E4C2242ADD500A1FDB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A274E512242ADD500A1FDB7 /* FortniteStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortniteStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A274E552242ADD500A1FDB7 /* FortniteStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortniteStoreTests.swift; sourceTree = "<group>"; };
+		4A274E572242ADD500A1FDB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A274E5C2242ADD500A1FDB7 /* FortniteStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortniteStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A274E602242ADD500A1FDB7 /* FortniteStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortniteStoreUITests.swift; sourceTree = "<group>"; };
+		4A274E622242ADD500A1FDB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AE0113F2242B0AE00A37FFC /* StoreItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItem.swift; sourceTree = "<group>"; };
+		4AE011412242B20C00A37FFC /* StoreCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCollectionView.swift; sourceTree = "<group>"; };
+		5CC9AC48F9AFB0EA90D41009 /* Pods-FortniteStoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortniteStoreUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FortniteStoreUITests/Pods-FortniteStoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0485B13D2AA86C63FB9DB60 /* Pods-FortniteStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortniteStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FortniteStore/Pods-FortniteStore.debug.xcconfig"; sourceTree = "<group>"; };
+		A1206C2507CF9F9523D47F9A /* Pods_FortniteStoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FortniteStoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF187389A6F34E230DC8A45C /* Pods-FortniteStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortniteStoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FortniteStoreTests/Pods-FortniteStoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		D3A3220D3309186D6092C728 /* Pods_FortniteStoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FortniteStoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A274E3A2242ADD300A1FDB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576369E817B163662392E004 /* Pods_FortniteStore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A274E4E2242ADD500A1FDB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB7C201BEE5CA159CB01B9E /* Pods_FortniteStoreTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A274E592242ADD500A1FDB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF71519070F9B49CC5742CAD /* Pods_FortniteStoreUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		237698E331BA804D53711C81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0485B13D2AA86C63FB9DB60 /* Pods-FortniteStore.debug.xcconfig */,
+				447A2A4C9141B202AC80D3BE /* Pods-FortniteStore.release.xcconfig */,
+				21B567554107407D1662E212 /* Pods-FortniteStoreTests.debug.xcconfig */,
+				AF187389A6F34E230DC8A45C /* Pods-FortniteStoreTests.release.xcconfig */,
+				5CC9AC48F9AFB0EA90D41009 /* Pods-FortniteStoreUITests.debug.xcconfig */,
+				21540D94064BE38B19DE7BA0 /* Pods-FortniteStoreUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4A274E342242ADD300A1FDB7 = {
+			isa = PBXGroup;
+			children = (
+				4A274E3F2242ADD300A1FDB7 /* FortniteStore */,
+				4A274E542242ADD500A1FDB7 /* FortniteStoreTests */,
+				4A274E5F2242ADD500A1FDB7 /* FortniteStoreUITests */,
+				4A274E3E2242ADD300A1FDB7 /* Products */,
+				237698E331BA804D53711C81 /* Pods */,
+				F78721BFF0D077DB1DF4554A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A274E3E2242ADD300A1FDB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A274E3D2242ADD300A1FDB7 /* FortniteStore.app */,
+				4A274E512242ADD500A1FDB7 /* FortniteStoreTests.xctest */,
+				4A274E5C2242ADD500A1FDB7 /* FortniteStoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A274E3F2242ADD300A1FDB7 /* FortniteStore */ = {
+			isa = PBXGroup;
+			children = (
+				4A274E402242ADD300A1FDB7 /* AppDelegate.swift */,
+				4A274E422242ADD300A1FDB7 /* StoreViewController.swift */,
+				4AE011412242B20C00A37FFC /* StoreCollectionView.swift */,
+				4AE0113F2242B0AE00A37FFC /* StoreItem.swift */,
+				4A274E472242ADD500A1FDB7 /* Assets.xcassets */,
+				4A274E492242ADD500A1FDB7 /* LaunchScreen.storyboard */,
+				4A274E4C2242ADD500A1FDB7 /* Info.plist */,
+			);
+			path = FortniteStore;
+			sourceTree = "<group>";
+		};
+		4A274E542242ADD500A1FDB7 /* FortniteStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A274E552242ADD500A1FDB7 /* FortniteStoreTests.swift */,
+				4A274E572242ADD500A1FDB7 /* Info.plist */,
+			);
+			path = FortniteStoreTests;
+			sourceTree = "<group>";
+		};
+		4A274E5F2242ADD500A1FDB7 /* FortniteStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A274E602242ADD500A1FDB7 /* FortniteStoreUITests.swift */,
+				4A274E622242ADD500A1FDB7 /* Info.plist */,
+			);
+			path = FortniteStoreUITests;
+			sourceTree = "<group>";
+		};
+		F78721BFF0D077DB1DF4554A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29A53E44EB632093F4392686 /* Pods_FortniteStore.framework */,
+				A1206C2507CF9F9523D47F9A /* Pods_FortniteStoreTests.framework */,
+				D3A3220D3309186D6092C728 /* Pods_FortniteStoreUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A274E3C2242ADD300A1FDB7 /* FortniteStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A274E652242ADD500A1FDB7 /* Build configuration list for PBXNativeTarget "FortniteStore" */;
+			buildPhases = (
+				D1D78152F30A2AFAACF772B7 /* [CP] Check Pods Manifest.lock */,
+				4A274E392242ADD300A1FDB7 /* Sources */,
+				4A274E3A2242ADD300A1FDB7 /* Frameworks */,
+				4A274E3B2242ADD300A1FDB7 /* Resources */,
+				B48C423B3BFB91B4148E462D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FortniteStore;
+			productName = FortniteStore;
+			productReference = 4A274E3D2242ADD300A1FDB7 /* FortniteStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A274E502242ADD500A1FDB7 /* FortniteStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A274E682242ADD500A1FDB7 /* Build configuration list for PBXNativeTarget "FortniteStoreTests" */;
+			buildPhases = (
+				A3B56B3D88874F608A5A12F4 /* [CP] Check Pods Manifest.lock */,
+				4A274E4D2242ADD500A1FDB7 /* Sources */,
+				4A274E4E2242ADD500A1FDB7 /* Frameworks */,
+				4A274E4F2242ADD500A1FDB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A274E532242ADD500A1FDB7 /* PBXTargetDependency */,
+			);
+			name = FortniteStoreTests;
+			productName = FortniteStoreTests;
+			productReference = 4A274E512242ADD500A1FDB7 /* FortniteStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A274E5B2242ADD500A1FDB7 /* FortniteStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A274E6B2242ADD500A1FDB7 /* Build configuration list for PBXNativeTarget "FortniteStoreUITests" */;
+			buildPhases = (
+				44A3119E936D6E0CA524ED89 /* [CP] Check Pods Manifest.lock */,
+				4A274E582242ADD500A1FDB7 /* Sources */,
+				4A274E592242ADD500A1FDB7 /* Frameworks */,
+				4A274E5A2242ADD500A1FDB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A274E5E2242ADD500A1FDB7 /* PBXTargetDependency */,
+			);
+			name = FortniteStoreUITests;
+			productName = FortniteStoreUITests;
+			productReference = 4A274E5C2242ADD500A1FDB7 /* FortniteStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A274E352242ADD300A1FDB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jules Labador";
+				TargetAttributes = {
+					4A274E3C2242ADD300A1FDB7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4A274E502242ADD500A1FDB7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4A274E3C2242ADD300A1FDB7;
+					};
+					4A274E5B2242ADD500A1FDB7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4A274E3C2242ADD300A1FDB7;
+					};
+				};
+			};
+			buildConfigurationList = 4A274E382242ADD300A1FDB7 /* Build configuration list for PBXProject "FortniteStore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A274E342242ADD300A1FDB7;
+			productRefGroup = 4A274E3E2242ADD300A1FDB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A274E3C2242ADD300A1FDB7 /* FortniteStore */,
+				4A274E502242ADD500A1FDB7 /* FortniteStoreTests */,
+				4A274E5B2242ADD500A1FDB7 /* FortniteStoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A274E3B2242ADD300A1FDB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A274E4B2242ADD500A1FDB7 /* LaunchScreen.storyboard in Resources */,
+				4A274E482242ADD500A1FDB7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A274E4F2242ADD500A1FDB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A274E5A2242ADD500A1FDB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44A3119E936D6E0CA524ED89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FortniteStoreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3B56B3D88874F608A5A12F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FortniteStoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B48C423B3BFB91B4148E462D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FortniteStore/Pods-FortniteStore-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FortniteStore/Pods-FortniteStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1D78152F30A2AFAACF772B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FortniteStore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A274E392242ADD300A1FDB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AE011422242B20C00A37FFC /* StoreCollectionView.swift in Sources */,
+				4AE011402242B0AE00A37FFC /* StoreItem.swift in Sources */,
+				4A274E432242ADD300A1FDB7 /* StoreViewController.swift in Sources */,
+				4A274E412242ADD300A1FDB7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A274E4D2242ADD500A1FDB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A274E562242ADD500A1FDB7 /* FortniteStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A274E582242ADD500A1FDB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A274E612242ADD500A1FDB7 /* FortniteStoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A274E532242ADD500A1FDB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A274E3C2242ADD300A1FDB7 /* FortniteStore */;
+			targetProxy = 4A274E522242ADD500A1FDB7 /* PBXContainerItemProxy */;
+		};
+		4A274E5E2242ADD500A1FDB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A274E3C2242ADD300A1FDB7 /* FortniteStore */;
+			targetProxy = 4A274E5D2242ADD500A1FDB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A274E492242ADD500A1FDB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A274E4A2242ADD500A1FDB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A274E632242ADD500A1FDB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A274E642242ADD500A1FDB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A274E662242ADD500A1FDB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0485B13D2AA86C63FB9DB60 /* Pods-FortniteStore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 599AK5LM2V;
+				INFOPLIST_FILE = FortniteStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JulesLabador.FortniteStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A274E672242ADD500A1FDB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 447A2A4C9141B202AC80D3BE /* Pods-FortniteStore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 599AK5LM2V;
+				INFOPLIST_FILE = FortniteStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JulesLabador.FortniteStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A274E692242ADD500A1FDB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21B567554107407D1662E212 /* Pods-FortniteStoreTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 599AK5LM2V;
+				INFOPLIST_FILE = FortniteStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JulesLabador.FortniteStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FortniteStore.app/FortniteStore";
+			};
+			name = Debug;
+		};
+		4A274E6A2242ADD500A1FDB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF187389A6F34E230DC8A45C /* Pods-FortniteStoreTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 599AK5LM2V;
+				INFOPLIST_FILE = FortniteStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JulesLabador.FortniteStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FortniteStore.app/FortniteStore";
+			};
+			name = Release;
+		};
+		4A274E6C2242ADD500A1FDB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CC9AC48F9AFB0EA90D41009 /* Pods-FortniteStoreUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 599AK5LM2V;
+				INFOPLIST_FILE = FortniteStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JulesLabador.FortniteStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FortniteStore;
+			};
+			name = Debug;
+		};
+		4A274E6D2242ADD500A1FDB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21540D94064BE38B19DE7BA0 /* Pods-FortniteStoreUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 599AK5LM2V;
+				INFOPLIST_FILE = FortniteStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JulesLabador.FortniteStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FortniteStore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A274E382242ADD300A1FDB7 /* Build configuration list for PBXProject "FortniteStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A274E632242ADD500A1FDB7 /* Debug */,
+				4A274E642242ADD500A1FDB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A274E652242ADD500A1FDB7 /* Build configuration list for PBXNativeTarget "FortniteStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A274E662242ADD500A1FDB7 /* Debug */,
+				4A274E672242ADD500A1FDB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A274E682242ADD500A1FDB7 /* Build configuration list for PBXNativeTarget "FortniteStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A274E692242ADD500A1FDB7 /* Debug */,
+				4A274E6A2242ADD500A1FDB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A274E6B2242ADD500A1FDB7 /* Build configuration list for PBXNativeTarget "FortniteStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A274E6C2242ADD500A1FDB7 /* Debug */,
+				4A274E6D2242ADD500A1FDB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A274E352242ADD300A1FDB7 /* Project object */;
+}
