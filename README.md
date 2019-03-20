@@ -1,7 +1,7 @@
 # FortniteStore
 Utilizes the TRN FortniteTracker API to retrieve the current shop items in Epic Games' Fortnite Battle Royale
 
-# Technologies Used
+# What I used to make this project
 * Custom UICollectionViewController
 * Alamofire to make requests
 * AlamofireImage to download an image
